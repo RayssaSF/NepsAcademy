@@ -1,0 +1,7 @@
+def main():
+    numvezes=int(input())
+    for i in range(numvezes):
+        print("NepsAcademy eh Sucesso")
+
+if __name__ == "__main__":
+    main()
