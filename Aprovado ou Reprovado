@@ -1,0 +1,17 @@
+entrada = input()
+A_str, B_str = entrada.split()  # Dividir a entrada em duas partes
+
+# Conversão para float
+A = float(A_str)
+B = float(B_str)
+
+# Cálculo da média
+media = (A + B) / 2
+
+# Verificação da média
+if media >= 7.0:
+    print("Aprovado")
+elif 4.0 <= media < 7.0:
+    print("Recuperacao")
+else:
+    print("Reprovado")
