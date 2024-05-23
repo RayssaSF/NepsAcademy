@@ -1,0 +1,8 @@
+def main():
+    tabuada=int(input())
+    
+    for count in range(1, 11):
+        print(tabuada, '*', count, '=',(tabuada * count))
+
+if __name__ == "__main__":
+    main()
