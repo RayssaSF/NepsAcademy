@@ -1,0 +1,11 @@
+import java.util.Scanner;
+ class Main {
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner (System.in);
+		int l = teclado.nextInt();
+		int area = (int) Math.pow(l, 2);
+		System.out.println(area);
+		teclado.close();
+	}
+
+}
